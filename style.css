@@ -1,0 +1,61 @@
+.container
+{
+    position: relative;
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+.centered
+{
+    position: absolute;
+    font-size: 10px;
+    top: 200px;
+    left: 150px;
+    transform: translate(-50%);
+    font-style: italic;
+}
+.top-right
+{
+    position: absolute;
+    top:140px;
+    left:6px;
+    color: rgb(39, 36, 36);
+    font-size: 8px;
+    font-weight:800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-img
+{
+    background-image: url("stylish&modern.png");
+    width:100%;
+    height: 500px;
+    align-items: center;
+    background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.top-left
+{
+    position: absolute;
+    top: 140px;
+    right:60px;
+    color: rgb(43, 42, 42);
+    font-size:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    bottom:5px;
+    font-size: small;
+
+    
+}
+
+@media only screen and (max-width: 378px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
